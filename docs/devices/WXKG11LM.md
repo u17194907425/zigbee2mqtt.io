@@ -22,6 +22,9 @@ description: "Integrate your Xiaomi WXKG11LM via Zigbee2mqtt with whatever smart
 Press and hold the reset button on the device for +- 5 seconds (until the blue light starts blinking).
 After this the device will automatically join.
 
+### Supported events
+There are at least two different models. One of them supports triple and quadruple clicks while the other supports hold and release instead. There is no reliable way to know in advance which version you have as these different models has exactly the same look and exactly similar IDs at their back.
+
 
 ## Manual Home Assistant configuration
 Although Home Assistant integration through [MQTT discovery](../integration/home_assistant) is preferred,
